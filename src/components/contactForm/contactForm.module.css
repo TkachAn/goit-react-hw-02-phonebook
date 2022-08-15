@@ -45,35 +45,3 @@
   color: aliceblue;
   opacity: 1;
 }
-.btnColorTrue {
-  padding: 10px 20px;
-  /* background-color: var(--accentColor); */
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-  outline: none;
-  opacity: 0.8;
-  transition: opacity 250ms var(--timingFn);
-  cursor: pointer;
-  color: #fff;
-  font-weight: 700;
-  font-size: 16px;
-  text-transform: uppercase;
-  background-color: green;
-}
-.btnColorFalse {
-  padding: 10px 20px;
-  /* background-color: var(--accentColor); */
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-  outline: none;
-  opacity: 0.8;
-  transition: opacity 250ms var(--timingFn);
-  cursor: pointer;
-  color: #fff;
-  font-weight: 700;
-  font-size: 16px;
-  text-transform: uppercase;
-  background-color: red;
-}
