@@ -1,0 +1,39 @@
+.list {
+  margin-top: 30px;
+  color: var(--secondaryTextColor);
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: 900;
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+  display: inline-block;
+  color: red;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  /* transition: 250ms scale(1.1) var(--timingFn); */
+  transition: background-color 0.5s, transform 0.5s;
+  /* transform: translate(10px); */
+}
+
+.btn:hover {
+  background-color: red;
+  color: white;
+}
