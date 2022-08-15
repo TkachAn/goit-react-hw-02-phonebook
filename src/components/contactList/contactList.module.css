@@ -28,9 +28,7 @@
   border-radius: 50%;
   border: none;
   outline: none;
-  /* transition: 250ms scale(1.1) var(--timingFn); */
   transition: background-color 0.5s, transform 0.5s;
-  /* transform: translate(10px); */
 }
 
 .btn:hover {
