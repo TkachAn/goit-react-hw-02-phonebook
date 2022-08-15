@@ -7,18 +7,15 @@ class ContactForm extends Component {
     name: '',
     number: '',
   };
-
   handleChange = e => {
     const { name, value } = e.currentTarget;
     this.setState({ [name]: value });
   };
-
   handleSubmit = e => {
     e.preventDefault();
     this.props.onSubmit(this.state);
     this.setState({ name: '', number: '' });
   };
-
   render() {
     const { name, number } = this.state;
     return (
@@ -58,9 +55,7 @@ class ContactForm extends Component {
     );
   }
 }
-
 ContactForm.propTypes = {
   onSubmit: PropTypes.func.isRequired,
 };
-
 export default ContactForm;
