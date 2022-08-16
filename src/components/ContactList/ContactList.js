@@ -10,7 +10,6 @@ function ContactList({ contacts, onDeleteContact }) {
             {name}: {number}
           </p>
           <button
-            //value={'x'}
             className={css.btn}
             type="button"
             onClick={() => onDeleteContact(id)}
