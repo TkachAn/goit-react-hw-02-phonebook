@@ -1,7 +1,3 @@
-/* .list {
-  display: block;
-} */
-
 .item {
   display: flex;
   justify-content: space-between;
