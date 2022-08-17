@@ -11,7 +11,7 @@ class App extends Component {
       { id: nanoid(), name: 'дід Іван', number: '459-12-56' },
       { id: nanoid(), name: 'тітка Маруся', number: '443-89-12' },
       { id: nanoid(), name: 'баба Галя', number: '645-17-79' },
-      { id: nanoid(), name: 'Толик лисий', number: '227-91-26' },
+      { id: nanoid(), name: 'Лёха Електрик', number: '227-91-26' },
     ],
     filter: '',
   };
