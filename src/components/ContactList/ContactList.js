@@ -6,16 +6,14 @@ function ContactList({ contacts, onDeleteContact }) {
     <ul className={css.list}>
       {contacts.map(({ id, name, number }) => (
         <li className={css.item} key={id}>
-          <p className={css.info}>
-            <ContactItem name={name} tel={number} />
-          </p>
-          <button
-            className={css.btn}
-            type="button"
-            onClick={() => onDeleteContact(id)}
-          >
-            X
-          </button>
+          {/* <p className={css.info}> */}
+          <ContactItem
+            user={name}
+            tel={number}
+            onDel={onDeleteContact}
+            delId={id}
+          />
+          {/* </p> */}
         </li>
       ))}
     </ul>
