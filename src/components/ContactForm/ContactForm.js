@@ -3,6 +3,12 @@ import PropTypes from 'prop-types';
 import css from './ContactForm.module.css';
 
 class ContactForm extends Component {
+  //????????????
+  static defaultProps = {
+    name: PropTypes.string.isRequired,
+    number: PropTypes.string.isRequired,
+  };
+  //
   state = {
     name: '',
     number: '',
