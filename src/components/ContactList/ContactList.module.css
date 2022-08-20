@@ -2,26 +2,9 @@
   margin: 20px 10px 0;
 }
 .item {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  text-align: left;
   padding-top: 10px;
   font-size: 20px;
-}
-
-.btn {
-  border-radius: 50%;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  color: red;
-  background-color: transparent;
-  font-weight: 900;
-  font-size: 16px;
-  text-transform: uppercase;
-  transition: background-color 0.5s, transform 0.5s;
-}
-
-.btn:hover {
-  color: white;
-  background-color: red;
+  /* justify-content: space-between; */
 }
