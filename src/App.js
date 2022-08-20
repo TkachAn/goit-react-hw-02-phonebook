@@ -8,10 +8,10 @@ import css from './App.module.css';
 class App extends Component {
   state = {
     contacts: [
-      { id: nanoid(), name: 'дід Іван', number: '459-12-56' },
-      { id: nanoid(), name: 'тітка Маруся', number: '443-89-12' },
-      { id: nanoid(), name: 'баба Галя', number: '645-17-79' },
-      { id: nanoid(), name: 'Лёха Електрик', number: '227-91-26' },
+      { id: nanoid(), name: 'дід Іван', number: '+380 67 459 12 56' },
+      { id: nanoid(), name: 'тітка Маруся', number: '+380 67 443 89 12' },
+      { id: nanoid(), name: 'баба Галя', number: '+380 96 451 07 79' },
+      { id: nanoid(), name: 'Лёха Електрик', number: '+380 95 227 91 26' },
     ],
     filter: '',
   };
